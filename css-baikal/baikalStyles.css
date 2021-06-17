@@ -16,7 +16,7 @@ ul {
   h2 h3 p {
  list-style: none;
   }
-.back{
+.hero-overlay{
 
  color: var(--text-color);
  box-sizing: border-box;  
@@ -27,7 +27,7 @@ ul {
  margin: 0;
   }
 
-.container{
+.hero-container{
 width: 1120px;   
 margin: 0 auto;
 
@@ -56,7 +56,7 @@ align-items: baseline ;
   align-items: center;
 }
 
-.logo-text{
+.hero-logo-text{
 font-family:'Serif';
 font-weight: 700;
 font-size: 20px;
@@ -68,7 +68,7 @@ margin-right: 179px;
 margin-top: 15px;
 margin-bottom: 17px;
 }
-.logo-text-two{
+.hero-logo-text-two{
 font-family: 'Roboto';
 font-weight: 400px;
 font-size: 18px;
@@ -79,7 +79,7 @@ color: var(--text-color);
 
 }
 
-.contacts{
+.hero-contacts{
  display: inline-block;
  
  font-family: 'Roboto';
@@ -93,20 +93,20 @@ color: var(--text-color);
  
 }
 
-.contacts li{
+.hero-contacts li{
   display: inline-block;
   color: var(--text-color);
   margin-right: 33px;
   align-items: baseline;
 }
-.contacts li:last-child{
+.hero-contacts li:last-child{
   margin-right: 45px;
 }
-.contacts a{
+.hero-contacts a{
   text-decoration: none;
   color: var(--text-color);
 }
-.button{
+.hero-button{
 font-family: 'Roboto';
 font-weight: 400px;
 font-size: 16px;
@@ -183,7 +183,7 @@ line-height: 140%;
 text-align: left;
 margin-bottom: 94px;
 }
-.tour{
+.hero-tour{
 font-family: 'Roboto';
 font-weight: 500px;
 font-size: 18px;
